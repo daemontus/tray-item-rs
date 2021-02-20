@@ -14,7 +14,7 @@ license = "MIT"
 
 [target.'cfg(target_os="linux")'.dependencies]
 libappindicator = "0.5" # Tray icon
-gtk = "0.8"
+gtk = "0.9"
 
 [target.'cfg(target_os="windows")'.dependencies]
 winapi = { version = "0.3", features = ["shellapi", "libloaderapi", "errhandlingapi", "impl-default"] }
